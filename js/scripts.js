@@ -26,8 +26,6 @@ $(".contact").last().click(function() {
   $(".last-name").text(newContact.lastName);
 });
 
-
-
     $("input#new-first-name").val("");
     $("input#new-last-name").val("");
   });
