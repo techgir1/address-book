@@ -9,6 +9,7 @@
   </head>
   <body>
     <div class="container">
+      <header>
       <h1>Address book</h1>
 
       <div class="row">
@@ -20,10 +21,12 @@
               <label for="new-first-name">First name</label>
               <input type="text" class="form-control" id="new-first-name">
             </div>
+            <br>
             <div class="form-group">
               <label for="new-last-name">Last name</label>
               <input type="text" class="form-control" id="new-last-name">
             </div>
+            <br>
 
             <div id="new-addresses">
               <div class="new-address">
@@ -31,28 +34,35 @@
                   <label for="new-street">Street</label>
                   <input type="text" class="form-control new-street">
                 </div>
+                <br>
+
                 <div class="form-group">
                   <label for="new-city">City</label>
                   <input type="text" class="form-control new-city">
                 </div>
+                <br>
+
                 <div class="form-group">
                   <label for="new-state">State</label>
                   <input type="text" class="form-control new-state">
                 </div>
               </div>
             </div>
+            <br>
 
             <span class="btn btn-primary" id="add-address">Another address</span>
 
             <button type="submit" class="btn">Add</button>
           </form>
+          </header>
 
+          <footer>
           <h2>Contacts:</h2>
           <ul id="contacts">
+          </footer>
 
           </ul>
         </div>
-
         <div class="col-md-6">
           <div id="show-contact">
             <h2></h2>
@@ -62,9 +72,9 @@
             <ul id="addresses">
 
             </ul>
-          </div>
-        </div>
 
+            
+        </div>
       </div>
     </div>
   </body>

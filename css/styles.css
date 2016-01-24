@@ -1,3 +1,16 @@
+body {
+	background-color: #b3cccc;
+}
+
+header {
+	float: left;
+	padding-right: 200px;
+}
+
+.container {
+	padding-left: 30px;
+}
+
 #show-contact {
   display: none;
 }
@@ -10,3 +23,13 @@
 .contact:hover {
   text-decoration: underline;
 }
+
+li {
+	list-style-type: none;
+}
+
+footer {
+	float: bottom;
+	padding-top: 5px;
+}
+
